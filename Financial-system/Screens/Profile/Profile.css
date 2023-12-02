@@ -1,0 +1,72 @@
+.delete {
+	width: 100%!important;
+}
+
+.money-view {
+	padding-bottom: 0.5rem;
+	flex-direction: column;
+}
+
+.title-name {
+	color: #ffffff;
+	font-size: 2rem;
+	font-family: Montserrat;
+	margin-top: 2rem;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.label-action {
+	margin-top: 2.3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.label-action-title {
+	color: #303030;
+	font-family: Nunito;
+	font-weight: 700;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.card-container-profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	margin-top: 5rem;
+}
+
+.card-profile {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+
+	width: 100%;
+	max-width: 310px;
+	height: 280px;
+	margin: 0 1.5rem 3rem 1.5rem;
+	padding: 1rem;
+	border-radius: 8px;
+	border: 0.1px solid #0000001c;
+
+	cursor: pointer;
+	transition: box-shadow 0.3s;
+}
+
+.card-profile:hover {
+	box-shadow: 0 1rem 3rem #0000002d;
+}
+
+.btn-modal-submit {
+	margin-top: 1rem;
+}
+
+.pass {
+	display: flex;
+	justify-content: space-between;
+}
+
+

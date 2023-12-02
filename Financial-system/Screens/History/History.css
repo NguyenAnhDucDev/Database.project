@@ -1,0 +1,153 @@
+h3,
+h4 {
+	margin: 0;
+}
+
+table {
+	margin-top: 1rem;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+th,
+td {
+	text-align: left;
+	padding: 8px;
+	font-size: 15pt;
+}
+
+th {
+	color: #fff;
+}
+
+td:first-child {
+	font-weight: 700;
+}
+
+.trDesp:nth-child(even) {
+	background-color: #e4565115;
+}
+
+.trDesp:first-of-type {
+	background-color: #e45651;
+}
+
+.trRece:nth-child(even) {
+	background-color: #5de45115;
+}
+
+.trRece:first-of-type {
+	background-color: #5de451;
+}
+
+label {
+	font-size: 15pt;
+	font-weight: 700;
+}
+
+.modal-title {
+	font-weight: 700;
+}
+
+.LabelModal {
+	font-size: 15pt;
+	font-weight: 300;
+}
+
+.principal {
+	font-weight: 700;
+}
+
+.money-view {
+	padding-bottom: 0.5rem;
+	flex-direction: column;
+}
+
+.month-menu {
+	margin-top: 0.5rem;
+	overflow: auto;
+	white-space: nowrap;
+}
+t .container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-table {
+	overflow-x: auto;
+	margin-bottom: 3rem;
+}
+
+.btn-table {
+	margin: 5px;
+}
+
+.title-table {
+	margin-top: 4rem;
+	width: 100%;
+	text-align: center;
+}
+
+.title-table h3 {
+	font-weight: 700;
+	font-size: 27pt;
+	font-family: Nunito;
+	color: #222222;
+}
+
+.btn-modal-submit {
+	margin-top: 1rem;
+}
+
+/* Month Config */
+
+#main-table-jan {
+	display: block;
+}
+
+#main-table-fev {
+	display: none;
+}
+
+#main-table-mar {
+	display: none;
+}
+
+#main-table-abr {
+	display: none;
+}
+
+#main-table-mai {
+	display: none;
+}
+
+#main-table-jun {
+	display: none;
+}
+
+#main-table-jul {
+	display: none;
+}
+
+#main-table-ago {
+	display: none;
+}
+
+#main-table-set {
+	display: none;
+}
+
+#main-table-out {
+	display: none;
+}
+
+#main-table-nov {
+	display: none;
+}
+
+#main-table-dez {
+	display: none;
+}

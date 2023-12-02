@@ -1,0 +1,96 @@
+p {
+	margin: 0;
+}
+
+.navbar {
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.navbar-brand {
+	font-size: 1.7rem;
+}
+
+.nav-content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: column;
+}
+
+.menu-btn {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.money-view {
+	width: 100%;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	padding-bottom: 5.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item-money-view {
+	width: 310px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.item-money-text {
+	font-size: 18pt;
+	font-family: Montserrat;
+	color: #ffffffd8;
+}
+
+.card-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: -70px;
+	margin-bottom: 1rem;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+
+	width: 100%;
+	max-width: 310px;
+	height: 280px;
+	margin: 0 1.5rem 3rem 1.5rem;
+	padding: 1rem;
+	border-radius: 8px;
+
+	cursor: pointer;
+	transition: box-shadow 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.h3 {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.h5 {
+	margin: 0;
+}
+
+@media (min-width: 991px) {
+	.nav-content {
+		flex-flow: row;
+	}
+}
